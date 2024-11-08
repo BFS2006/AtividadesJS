@@ -11,7 +11,7 @@ html, body {
     font-family: Oswald;
 }
 body {
-    background-color: rgb(18, 86, 146);
+    background-color: rgb(153, 170, 56);
 }
 .titulo {
     color: white;
@@ -53,8 +53,8 @@ body {
     width: 340px;
     height: 204px;
     button {
-        color: aliceblue;
-        background-color: blue;
+        color: rgb(0, 0, 0);
+        background-color: rgb(217, 255, 0);
         border-radius: 10px;
         padding: 0.6rem;
         font-family: Oswald;
@@ -62,10 +62,10 @@ body {
         transition: all 0.2s;
     }
     button:hover {
-        background-color: aliceblue;
-        border: 2px solid blue;
-        color: blue;
-        box-shadow: 0 0 20px blue;
+        background-color:  white;
+        border: 2px solid  rgb(217, 255, 0);
+        color:  rgb(0, 0, 0);
+        box-shadow: 0 0 20px  rgb(217, 255, 0);
     }
     button:active {
         transform: scale(0.9);
@@ -88,7 +88,7 @@ footer {
             text-decoration: none;
             font-size: 20px;
             -webkit-text-stroke: 0.5px black;
-            transition: all 0.5s;
+            transition: all 0.5s;     
         }
         a:hover {
             transform: scale(1.1);
@@ -98,23 +98,20 @@ footer {
             justify-content: center;
             align-items: center;
             gap: 0.3rem;
-            color: aliceblue;
-            background-color: blue;
+            color: rgb(0, 0, 0);
+            background-color: rgb(217, 255, 0);
             border-radius: 10px;
             padding: 0.6rem;
             font-family: Oswald;
             font-weight: bolder;
             font-size: 1rem;
             transition: all 0.2s;
-            .bi-door-open {
-                font-size: 18px
-            }
         }
         button:hover {
-            background-color: aliceblue;
-            border: 2px solid blue;
-            color: blue;
-            box-shadow: 0 0 20px blue;
+            background-color:  white;
+            border: 2px solid  rgb(217, 255, 0);
+            color:  rgb(0, 0, 0);
+            box-shadow: 0 0 20px  rgb(217, 255, 0);
         }
         button:active {
             transform: scale(0.9);
@@ -145,6 +142,9 @@ footer {
     .pai2 > :not(:hover) {
         transition: ease-in-out 0.5s;
     }
+    .atvdds {
+        width: 340px;
+    }
     footer {
         display: flex;
         justify-content: center;
@@ -171,8 +171,6 @@ footer {
                 justify-content: center;
                 align-items: center;
                 gap: 0.3rem;
-                color: aliceblue;
-                background-color: blue;
                 border-radius: 10px;
                 padding: 0.6rem;
                 height: 50px;
@@ -184,15 +182,6 @@ footer {
                 .bi-door-open {
                     font-size: 18px
                 }
-            }
-            button:hover {
-                background-color: aliceblue;
-                border: 2px solid blue;
-                color: blue;
-                box-shadow: 0 0 20px blue;
-            }
-            button:active {
-                transform: scale(0.9);
             }
         }
     }

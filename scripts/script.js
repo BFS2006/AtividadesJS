@@ -331,3 +331,16 @@ function efeito() {
     elemento.classList.add("pai");
   }
 }
+const toggleButton = document.getElementById('toggle-btn');
+const extraContent = document.getElementById('paii');
+
+toggleButton.addEventListener('click', function() {
+    if (extraContent.style.display === 'none') {
+        extraContent.style.display = 'block';
+        toggleButton.textContent = 'Esconder informações';
+        window.location.reload();
+    } else {
+        extraContent.style.display = 'none';
+        toggleButton.textContent = 'Mostrar informações';
+    }
+});
